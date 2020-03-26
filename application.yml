@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicestudy-config-dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicestudy-config-test
+#请保存为UTF-8格式  
+  
